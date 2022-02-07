@@ -1,0 +1,23 @@
+.title {
+    color:#fffe;
+}
+.levelsContainer {
+    width: 1200px;
+    margin:0px auto;
+    display: flex;
+    justify-content: center;
+}
+.level {
+    transition: background 500ms ease;
+    padding:40px;
+    margin:10px;
+    cursor:pointer;
+    border:.5px solid #cce;
+    border-radius:10px;
+    background:transparent;
+    color:white;
+}
+.level:hover {
+    background-color:#eee;
+    color:black;
+}
