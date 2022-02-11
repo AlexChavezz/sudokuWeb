@@ -9,17 +9,29 @@
     flex-wrap: wrap;
 }
 .level {
-    transition: background 500ms ease;
-    height: 75px;
-    width:75px;
-    margin:10px;
-    cursor:pointer;
     border:.5px solid #cce;
     border-radius:10px;
     background-color:#7f5af0;
+    cursor:pointer;
     color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    transition: background 500ms ease;
+    margin:10px;
+    height: 75px;
+    width:75px;
 }
 .level:hover {
     background-color:#eee;
     color:black;
 }
+.levelStatus {
+    width: 100%;
+    margin-top:10px;
+}
+.levelStatusStar {
+    width:10px;
+}
+
