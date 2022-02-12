@@ -1,5 +1,29 @@
 .barNav {
     height: 30vh;
-    border-bottom:2px solid #ccc;
+    color:white;
 }
+.headerContainer {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height:100%;
+}
+.advaceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.advanceTitle {
+    font-size:40px;
+    text-align:center;
+    margin-bottom:20px;
+}
+.advance {
+    height:20px;
+    width:400px;
+    align-self:flex-end;
+    border-radius:10px;
+}
+
+
 

@@ -3,3 +3,27 @@
     grid-template-columns: repeat(9, 1fr);
     width:468px;
 }
+.sudokuScreenContainer {
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.numbers {
+    width:50px;
+    height:450px;
+    margin-right:200px;
+}
+.numbersItem {
+    display: flex;
+    align-items: center;
+    color:#fff;
+    justify-content: center;
+    border:1px solid #fff;
+    width: 50px;
+    height: 50px;
+}
+.activeNumber {
+    background-color:#fffc;
+    color:black;
+}
